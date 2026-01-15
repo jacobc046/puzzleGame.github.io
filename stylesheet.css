@@ -1,0 +1,31 @@
+h1 {
+    
+}
+
+td {
+    width: 20px;
+    text-align: center;
+    background-color: pink;
+    border: 2px solid salmon;
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+}
+
+/* #stats-container {
+    display: flex;
+    gap: 50px;
+} */
+
+table {
+    background-color:lightgray;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+button {
+    margin-left: 20px;
+    width: 100px;
+    background-color: lightgray;
+}

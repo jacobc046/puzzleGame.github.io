@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 id="title">Table Puzzle Game</h1>
+    <h3 id="description">
+        The goal is to arrange the numbers in order from 1-15. 
+        <br><br>
+        To do so, simply click on the cell you would like to move into the blank slot.
+    </h3>
+    <div id="stats-container">
+        <p id="moves">Moves: 0</p>
+        <p id="time">Time in current game: 0 Seconds</p>
+    </div>
+    <button onclick="initialize()">New Game</button>
+    <button hidden onclick="gameWon()">Win Game</button>
+    <table id="gameboard">
+        <tbody id="table">
+            <!--Table tiles inserted by initialize() function-->
+        </tbody>
+    </table>
+    <p id="victory"></p>
+</body>
+<script src="index.js"></script>
+</html>
